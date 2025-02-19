@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Breakfast_menu>
+    <food>
+        <name>Irish Breakfast</name>
+        <price>8 euros</prince>
+            <item>Eggs -  calories (80)</item>
+            <item>Bacon - calories (200)</item>
+            <item>Sausage - calories (120)</item>
+            <item>Hash Potatos - calories (150)</item>
+    <food/>
+    <description>
+        All the food is cooked with olive oil (30 calories)
+    </description>
+</Breakfast_menu>
