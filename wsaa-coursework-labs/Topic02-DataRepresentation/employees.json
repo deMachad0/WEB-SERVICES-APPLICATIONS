@@ -1,0 +1,10 @@
+{
+    "employees":[
+        {"firstName":"John", "lastName":"Doe", "Age": 32, "Address": "41 Kavanagh"},
+        {"firstName":"Anna", "lastName":"Smith","Age": 33, "Address": "49 Hills"},
+        {"firstName":"Peter", "lastName":"Jones","Age": 41, "Address": "41 Temple"},
+        {"firstName":"Jay", "lastName":"Donohoe","Age": 23, "Address": "412 The court"},
+        {"firstName":"Alfred", "lastName":"Catch", "Age": 60, "Address": "1 Smithroad"}
+    ]
+    
+}
