@@ -1,6 +1,6 @@
 import requests
 
-url = "https://atu.ie"
+url = "http://atu.ie"
 
 response = requests.get(url)
 print(response.status_code)
