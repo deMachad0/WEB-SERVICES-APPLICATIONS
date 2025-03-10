@@ -55,5 +55,6 @@ def getFormated(dataset):
     return result
 
 if __name__ == "__main__":
+    
     #getAllAsFile("FIQ02")
     getFormattedAsFile("FIQ02")
