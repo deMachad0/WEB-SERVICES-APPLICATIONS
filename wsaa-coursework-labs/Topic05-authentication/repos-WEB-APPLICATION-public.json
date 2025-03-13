@@ -1,0 +1,50 @@
+[
+    {
+        "name": "README.md",
+        "path": "README.md",
+        "sha": "9370fe841a9d279d98ec9a0cee891dadc7554505",
+        "size": 66,
+        "url": "https://api.github.com/repos/deMachad0/WEB-SERVICES-APPLICATIONS/contents/README.md?ref=main",
+        "html_url": "https://github.com/deMachad0/WEB-SERVICES-APPLICATIONS/blob/main/README.md",
+        "git_url": "https://api.github.com/repos/deMachad0/WEB-SERVICES-APPLICATIONS/git/blobs/9370fe841a9d279d98ec9a0cee891dadc7554505",
+        "download_url": "https://raw.githubusercontent.com/deMachad0/WEB-SERVICES-APPLICATIONS/main/README.md",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/deMachad0/WEB-SERVICES-APPLICATIONS/contents/README.md?ref=main",
+            "git": "https://api.github.com/repos/deMachad0/WEB-SERVICES-APPLICATIONS/git/blobs/9370fe841a9d279d98ec9a0cee891dadc7554505",
+            "html": "https://github.com/deMachad0/WEB-SERVICES-APPLICATIONS/blob/main/README.md"
+        }
+    },
+    {
+        "name": "wsaa-coursework-assignments",
+        "path": "wsaa-coursework-assignments",
+        "sha": "60c524c3592defa44ddd4ab0f1c4fa177054baf0",
+        "size": 0,
+        "url": "https://api.github.com/repos/deMachad0/WEB-SERVICES-APPLICATIONS/contents/wsaa-coursework-assignments?ref=main",
+        "html_url": "https://github.com/deMachad0/WEB-SERVICES-APPLICATIONS/tree/main/wsaa-coursework-assignments",
+        "git_url": "https://api.github.com/repos/deMachad0/WEB-SERVICES-APPLICATIONS/git/trees/60c524c3592defa44ddd4ab0f1c4fa177054baf0",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/deMachad0/WEB-SERVICES-APPLICATIONS/contents/wsaa-coursework-assignments?ref=main",
+            "git": "https://api.github.com/repos/deMachad0/WEB-SERVICES-APPLICATIONS/git/trees/60c524c3592defa44ddd4ab0f1c4fa177054baf0",
+            "html": "https://github.com/deMachad0/WEB-SERVICES-APPLICATIONS/tree/main/wsaa-coursework-assignments"
+        }
+    },
+    {
+        "name": "wsaa-coursework-labs",
+        "path": "wsaa-coursework-labs",
+        "sha": "cb1ef21a6f14fcb33ad12bb12091f7262a2fbbd2",
+        "size": 0,
+        "url": "https://api.github.com/repos/deMachad0/WEB-SERVICES-APPLICATIONS/contents/wsaa-coursework-labs?ref=main",
+        "html_url": "https://github.com/deMachad0/WEB-SERVICES-APPLICATIONS/tree/main/wsaa-coursework-labs",
+        "git_url": "https://api.github.com/repos/deMachad0/WEB-SERVICES-APPLICATIONS/git/trees/cb1ef21a6f14fcb33ad12bb12091f7262a2fbbd2",
+        "download_url": null,
+        "type": "dir",
+        "_links": {
+            "self": "https://api.github.com/repos/deMachad0/WEB-SERVICES-APPLICATIONS/contents/wsaa-coursework-labs?ref=main",
+            "git": "https://api.github.com/repos/deMachad0/WEB-SERVICES-APPLICATIONS/git/trees/cb1ef21a6f14fcb33ad12bb12091f7262a2fbbd2",
+            "html": "https://github.com/deMachad0/WEB-SERVICES-APPLICATIONS/tree/main/wsaa-coursework-labs"
+        }
+    }
+]
