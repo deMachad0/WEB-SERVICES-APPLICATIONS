@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>County Weather CRUD</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+<h2>County Weather</h2>
+
+<input type="text" id="countyInput" placeholder="Enter county name" />
+<button onclick="addCounty()">Add</button>
+
+<ul id="countyList"></ul>
+
+<script>
+function fetchCounties() {
+    $.get("/counties", function(data) {
+        $('#countyList').empty();
+        if (data.length === 0) {
+            $('#countyList').append('<li>No counties added</li>');
+        } else {
+            data.forEach(item => {
+                $('#countyList').append(
+                    `<li>
+                        <strong>${item.county}</strong>: ${item.temperature}°C, Humidity: ${item.humidity}%, Wind: ${item.wind_speed} km/h
+                        <button onclick="updateCounty('${item.county}')">Update</button>
+                        <button onclick="deleteCounty('${item.county}')">Delete</button>
+                    </li>`
+                );
+            });
+        }
+    });
+}
+
+function addCounty() {
+    const county = $('#countyInput').val().trim();
+    if (!county) {
+        alert("Enter county name");
+        return;
+    }
+
+    $.ajax({
+        url: '/counties',
+        type: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify({ county }),
+        success: function() {
+            $('#countyInput').val('');
+            fetchCounties();
+        },
+        error: function() {
+            alert('Error adding county');
+        }
+    });
+}
+
+function updateCounty(county) {
+    $.ajax({
+        url: '/counties/' + county,
+        type: 'PUT',
+        success: fetchCounties,
+        error: function() {
+            alert('Error updating county');
+        }
+    });
+}
+
+function deleteCounty(county) {
+    $.ajax({
+        url: '/counties/' + county,
+        type: 'DELETE',
+        success: fetchCounties,
+        error: function() {
+            alert('Error deleting county');
+        }
+    });
+}
+
+$(document).ready(fetchCounties);
+</script>
+
+</body>
+</html>
