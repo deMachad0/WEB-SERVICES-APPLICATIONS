@@ -34,6 +34,7 @@ API_KEY = "your_api_key_here"  # From OpenWeatherMap
 
 ```bash
 pip install flask flask-cors requests
+pip install requests
 ```
 
 ### Run the App
